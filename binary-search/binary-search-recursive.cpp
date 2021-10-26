@@ -17,6 +17,6 @@ int BinarySearch_Recursive(int a[],int x,int left,int right){
 void main()
 {
 	int a[7] = {3, 4, 5, 6, 7, 8, 9};
-	cout<<BinarySearch_Recursive(a, 1, 0, 6);
+	cout<<BinarySearch_Recursive(a, 4, 0, 6);
 	system("pause");
 }
